@@ -8,6 +8,10 @@
   <title>Good Coffee</title>
 <!--Bootstrap CDN file-->  
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+ <!--Google fonts-->
+ <link href='https://fonts.googleapis.com/css?family=Muli|Raleway:500|Pacifico' rel='stylesheet' type='text/css'>
+  <!--Fontawesome-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
  <!--Links to our stylesheet-->
  <link rel="stylesheet" type="text/css" href="style.css">
  <!--link to javascript, and necessary for bootstrap-->
@@ -16,7 +20,115 @@
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <h1>Welcome to Good Coffee</h1>
+
+  <nav class="navbar navbar-default navbar-inverse transparent">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Good Coffee Co.</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Coffee <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Locations</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Unicorns <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Baby Unicorns</a></li>
+            <li><a href="#">Narwhals</a></li>
+            <li><a href="#">Pegai with Horns</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Fair Trade</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Coffee Gear <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Mugs </a></li>
+            <li><a href="#">T-shirts</a></li>
+            <li><a href="#">Koozies</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Coffee Presses</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Coffee Classes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+  <div class="jumbotron">
+    <!--<div class="container">-->
+    <h1>Welcome to Good Coffee</h1>
+  </div><!--closes jumbotron-->
+
+  <div class="container-fluid">
+
+    <div class="row mission text-center">
+      <div class="col-sm-12">
+        <h3>Here at Good Coffee, we strive to deliver the perfect experience every time.
+        Stop by today for the best coffee experience this town has to offer.</h3>
+      </div>
+    </div><!--closes ROW-->
+
+    <div class="row features">
+      <div class="col-sm-4">
+        <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Coffee_Beans.jpg" alt="photo of coffee beans">
+        <p>The freshest locally sourced coffee. Organic and fair-trade certified.</p>
+      </div>
+
+      <div class="col-sm-4">
+      <img class="img-responsive" src="http://pixabay.com/static/uploads/photo/2014/07/15/13/36/coffee-shop-393954_640.jpg" alt="photo of coffee shop">
+      <p>A perfect envorinment to meet with a friend or be alone to get work done!</p>
+      </div>
+
+      <div class="col-sm-4">
+      <img class="img-responsive" src="http://pixabay.com/static/uploads/photo/2013/11/05/23/55/coffee-206142_640.jpg" alt="photo of loaded espresso shot">
+        <p>Quality, hand-crafted espresso shots pulled with the greatest of care.</p>
+      </div>
+    </div><!--closes ROW-->
+
+    <footer>
+    <div class="row footer">
+      <div class="col-sm-4">
+      <p>Good Coffee Co. &copy; 2015</p>
+      </div>
+
+      <div class="col-sm-4 text-center">
+      <p>
+        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+        </p>
+      </div>
+
+      <div class="col-sm-4">
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"></a><p>About</p></li>
+        <li><a href="#"></a><p>Coffee</p></li>
+        <li><a href="#"></a><p>Locations</p></li>
+        </ul>
+      </div>
+    </div><!--closes row footer-->
+    </footer>
+
+  </div><!--closes container-fluid-->
 
 </body>
 </html>

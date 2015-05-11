@@ -1,1 +1,75 @@
 /*Custom Style for Good Coffee Page*/
+
+/*  FONTS
+font-family: 'Raleway', sans-serif;
+font-family: 'Muli', sans-serif;
+*/
+
+body {
+  color: #F7FAFE;
+  background-color: #a2ded0;
+}
+
+.transparent {
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 0;
+}
+
+.jumbotron {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -70px;
+  margin-bottom: 0px;
+  padding: 20%;
+}
+
+.jumbotron h1 {
+  color: #F7FAFE;
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px #D64541;
+}
+
+.mission {
+  background-color: #323232;
+  font-family: 'Raleway', sans-serif;
+  padding: 50px;
+}
+
+.mission h3 {
+
+}
+
+.features {
+  font-family: 'Muli', sans-serif;
+  color: #323232;
+  margin-top: 40px;
+}
+
+.footer {
+  color: #F7FAFE;
+  background-color: #D64541;
+}
+
+.footer p {
+ padding: 15px;
+}
+
+.footer a {
+ color: white;
+}
+
+.footer a:hover {
+ color: #323232 ;
+}
+
+.fa {
+  margin: 0 5%;
+}
+
+
